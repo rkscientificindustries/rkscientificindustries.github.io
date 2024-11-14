@@ -1,13 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>R.K. Scientific Industries</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqaU9_QGfd5cvk_DMwcZPmFFdEHZFWCfY&callback=initMap"
+      async
+      defer
+    ></script>
   </head>
+
   <body>
-    <div id="app"></div>
+    <div id="hero">
+      <h1>R.K. Scientific Industries</h1>
+    </div>
+    <div id="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.399978682554!2d76.8587951750046!3d30.339580574776345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fb78dd87d8967%3A0x64525a2c181b1953!2sR.K.%20Scientific%20Industries!5e0!3m2!1sen!2sin!4v1731521611618!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
     <script type="module" src="/script.js"></script>
   </body>
 </html>
